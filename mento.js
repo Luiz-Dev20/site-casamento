@@ -3,6 +3,6 @@ function ircvd() {
 }
 
 function irinfo() {
-    window.location.href = 'info.html';
+    window.location.href = 'informacoes.html';
 }
 
