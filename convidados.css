@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:#fafafa;
+}
+
+header {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.container {
+    margin-top: 20px
+}
+
+input {
+    padding: 10px;
+    width:200px;
+}
+
+button {
+     padding: 10px 20px;
+     cursor: pointer;
+}
+
+.lista{
+    margin-top: 40px;
+}
+
