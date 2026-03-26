@@ -2,6 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background:#fafafa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -25,5 +29,11 @@ button {
 
 .lista{
     margin-top: 40px;
+    flex: 1;
 }
 
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 1rem;
+}
