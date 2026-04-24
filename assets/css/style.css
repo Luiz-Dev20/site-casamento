@@ -28,10 +28,9 @@ body {
     justify-content: space-between;
     align-items:center ;
 
-    padding: 20px 40px;
+    padding: 22px 40px;
 
-    background:  rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(8px); /*efeito de vidro*/
+    background:  rgba(0, 0, 0);
 
     z-index: 1000;  /* garante que fique acima */
 }
@@ -50,33 +49,6 @@ body {
     cursor: pointer;
 }
 
-/*mobile*/
-@media (max-width: 750px){
-    .menu-toggle{
-        display: block;/*aparece no celular*/
-    }
-
-    .menu {
-        position: absolute;
-        top: 70px;
-        right: 10px;
-
-        flex-direction: column;
-        align-items: flex-start;
-
-        background: rgba(0, 0, 0, 0.9);
-        color: white;
-        padding: 20px;
-        border-radius: 10px;
-
-        display: none;
-    }
-
-    .menu.active {
-        display: flex;
-    }
-}
-
 /*menu*/
 .menu{
     display: flex;
@@ -89,7 +61,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: rgb(5, 5, 5);
     font-weight: bold;
     transition: 0.3s;
 }
@@ -97,3 +69,32 @@ body {
 .menu a:hover{
     color: #d3d3d3;
 }
+
+/*mobile*/
+@media (max-width: 750px){
+    .menu-toggle{
+        display: flex;/*aparece no celular*/
+    }
+
+    .menu {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+        
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        background: rgba(255, 255, 255, 0.9);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+        display: none;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+

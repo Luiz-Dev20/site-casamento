@@ -5,7 +5,7 @@ body {
    
     background: 
         linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-        url("img.convidados.png");
+        url("../../assets/img/img.convidados.png");
 
     background-size: cover;
     background-position: center;
@@ -16,6 +16,10 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+}
+
+#h1 {
+    margin-top: 60px;
 }
 
 .container {
@@ -29,7 +33,7 @@ body {
     box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
 
-input {
+#nomeConvidado {
     padding: 12px;
     width:220px;
     border-radius: 8px;
@@ -37,7 +41,7 @@ input {
     
 }
 
-button {
+#botao {
     margin-top: 10px;
      padding: 12px 18px;
      background: #d1b692;
@@ -54,10 +58,6 @@ button {
     overflow-y: auto;
     max-height: 550px;
 }
-
-#listaConvidados ul::-webkit-scrollbar{
-}
-
 
 
 #li {
